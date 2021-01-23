@@ -1,3 +1,19 @@
 print ("Hello World") # print Hello World
 print ('Hello World') # print Hello World
 print ("Hi i'm learner")# printing single quote
+
+cityname="India, Delhi" #Setting variable cityname
+print(cityname)  #printing variable
+print("cityname") #printing cityname as string
+print(cityname[0]) #printing first character of cityname variable
+print(cityname[-1]) #printing last character of cityname variable
+print(cityname[-3]) #printing third last character of cityname variable
+#Slicing
+print(cityname[2:]) #print following character starting from 3 character
+print(cityname[:4]) #print following character starting from before 5th character
+print(cityname[:]) #print complete string
+print(cityname[::]) #print complete string
+print(cityname[::1]) #print string with step size one it prints all character
+print(cityname[::2]) #print string with step size two it prints one skipped character
+
+print("cityname[0]") # printing as string 
